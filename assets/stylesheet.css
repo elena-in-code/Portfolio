@@ -41,12 +41,15 @@ body {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.portfolio-item {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
+.portfolio-item :hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.img-responsive{
+    margin: 10%;
 }
 /* About */
 
